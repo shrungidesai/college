@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Reset</title>
+  <link rel="stylesheet" type="text/css" href="fp.css">
+</head>
+
+<body bgcolor="pink">
+
+  <div class="container">
+    <h2>Forgot Password</h2>
+    <p>Please enter your email address:</p>
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="resetPassword()">Reset Password</button>
+
+    <h2>Change Password</h2>
+    <p>Please enter your new password:</p>
+    <input type="password" id="newPassword" placeholder="New Password">
+    <button onclick="changePassword()">Change Password</button>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="fp.js"></script>
+</body>
+</html>

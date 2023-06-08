@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Breast Cancer Detection</title>
+  <link rel="stylesheet" type="text/css" href="risk.css">
+</head>
+
+<body bgcolor="#ADDFFF">
+  <div class="container">
+    <h1>Breast Cancer Detection</h1>
+    <form id="cancerDetectionForm">
+      <label for="radiusMean">Mean Radius:</label>
+      <input type="number" id="radiusMean" step="any" required>
+      <label for="textureMean">Mean Texture:</label>
+      <input type="number" id="textureMean" step="any" required>
+      <button type="submit">Detect</button>
+    </form>
+    <p id="result"></p>
+  </div>
+ 
+  <script src="risk.js"></script>
+</body>
+</html>

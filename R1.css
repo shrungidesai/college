@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#symptoms-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#result {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+#result-text {
+  font-weight: bold;
+}

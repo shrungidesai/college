@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .resource {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resource h2 {
+    margin-top: 0;
+  }
+  
+  .resource p {
+    margin-bottom: 0;
+  }
+  
+  .resource a {
+    display: block;
+    margin-top: 10px;
+  }
+  

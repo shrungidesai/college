@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Breast Cancer Detection</title>
+  <link rel="stylesheet" type="text/css" href="R1.css">
+</head>
+<body bgcolor="#ADDFFF">
+
+  <form action="menu.html"></form>
+
+  <canter>
+  <h1>Breast Cancer Detection</h1>
+  
+  <div id="symptoms-form">
+    <label for="symptoms">Select Symptoms:</label><br><br>
+    <input type="checkbox" name="symptoms" value="lump"><a href="Lump.jpg">Lump</a><br><br>
+
+    <input type="checkbox" name="symptoms" value="nipple-discharge">Nipple Discharge<br>
+    <canter><p>Nipple changes or discharge, including fluid from the nipple that is not breast milk.
+    Because nipple changes or discharge can sometimes be signs of breast cancer, they should be checked.</p></canter><br>
+  
+    <input type="checkbox" name="symptoms" value="skin-changes">Skin Colour Changes<br>
+    <canter><p>Being familiar with how your breasts normally feel, such as when you shower or put on a bra, can make it easier to notice any changes.<br>
+      However, doing routine breast self-exams has not been shown to decrease the chance of dying from breast cancer.</p></canter><br>
+
+    <input type="checkbox" name="symptoms" value="breast-pain"><a href ="Breast pain.jpg">Breast Pain</a><br><br>
+
+    <input type="checkbox" name="symptoms" value="breast-size"> Breast Size <br>
+    <canter><p>Skin changes on your breast(s), including itching, redness or darkening, scaling, swelling, dimples, or puckers on your breast or nipple that don’t go away.</p></canter>
+    <br>
+
+    <button onclick="detectCancer()">Detect Cancer</button>
+  </div>
+
+  <div id="result" style="display: none;">
+    <h2>Results:</h2>
+    <p id="result-text"></p>
+  </div>
+
+  <br><br>
+
+  <a href="menu.html">Go to Menu Page</a>
+
+  <script src="R2.js"></script>
+</canter>
+</body>
+</html>

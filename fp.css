@@ -1,0 +1,17 @@
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input, button {
+    margin: 10px 0;
+  }
+  
+  #message {
+    color: red;
+    font-weight: bold;
+  }
+  
